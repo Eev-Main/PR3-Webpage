@@ -1,0 +1,321 @@
+/* Barra de navegacion */
+body{
+    background-color: black;
+
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(163, 0, 0);
+    height: 12%;
+}
+
+.navlink{
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+body .navbar .navlink button{
+    background-color: rgb(94, 0, 0);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+body .navbar .navlink button:hover{
+    background-color: rgb(240, 52, 52);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+body .hero-content button{
+    background-color: rgb(126, 14, 14);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+body .hero-content button:hover{
+    background-color: rgb(163, 0, 0);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar ul img{
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* Hero design */
+
+.hero{
+    margin-top: 6%;
+    width: 100vw;
+    height: 100vh;
+    background-image:  url(./assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-content{
+    background-color: rgb(94, 0, 0);
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.hero-content p{
+    
+    padding-bottom: 7%;
+}
+
+/* Productos */
+
+.grid{
+    width: 100vw;
+    height: 100vh;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    margin: 2%;
+
+    margin-bottom: 50%;
+}
+
+.productos{
+    padding: 1%;
+    margin: 2%;
+    width: 95%;
+    background-color: rgb(187,187,187);
+}
+
+.productos button{
+    background-color: rgb(163, 0, 0);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.productos button:hover{
+    background-color: rgb(90, 3, 3);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.productos img{
+    margin-left: 15%;
+    padding: 2px;
+    background-color: black;
+}
+
+.girdOff{
+    width: 100vw;
+    height: 100vh;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    margin: 2%;
+}
+
+/* descuentos */
+
+.productosOff{
+    padding: 1%;
+    margin: 2%;
+    width: 95%;
+    background-color: rgb(187,187,187);
+}
+
+.productosOff img{
+    margin-left: 15%;
+    padding: 2px;
+    background-color: black;
+}
+
+.dis{
+    width: 40%;
+    background-color: red;
+}
+
+.productosOff button{
+    background-color: rgb(163, 0, 0);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.productosOff button:hover{
+    background-color: rgb(90, 3, 3);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.galeria a button{
+    background-color: rgb(94, 0, 0);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+.galeria a button:hover{
+    background-color: rgb(240, 52, 52);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+/* footer */
+
+.foot{
+    background-color: rgb(68, 3, 3);
+    margin-top: 20%;
+    text-decoration: none;
+    color: white;
+}
+
+.dec{
+    text-decoration: none;
+}
+
+/* Seccion de pantallas de tablet y celular */
+
+@media screen and (max-width: 1023px) {
+    
+    body .navbar .navlink{
+        margin-left: 2%;
+    }
+
+    body .navbar .navlink button{
+        padding-top: 40%;
+        padding-bottom: 40%;
+    }
+
+    .hero{
+        width: 150vw;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 300%;
+    }
+
+    .foot{
+        margin-top: 120%;
+        margin-left: 5%;
+    }
+
+    
+    .girdOff{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    
+    body .navbar .navlink{
+        margin-left: 0px;
+    }
+
+    .hero{
+        width: 110vw;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        margin-bottom: 800%;
+    }
+
+    .foot{
+        margin-top: 580%;
+        margin-left: 20%;
+    }
+
+    .girdOff{
+        grid-template-columns: 1fr;
+    }
+
+}
