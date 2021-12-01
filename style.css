@@ -270,8 +270,8 @@ body .hero-content button:hover{
     }
 
     body .navbar .navlink button{
-        padding-top: 40%;
-        padding-bottom: 40%;
+        padding-top: 20%;
+        padding-bottom: 20%;
     }
 
     .hero{
@@ -284,7 +284,7 @@ body .hero-content button:hover{
     }
 
     .foot{
-        margin-top: 120%;
+        margin-top: 130%;
         margin-left: 5%;
     }
 
@@ -298,6 +298,11 @@ body .hero-content button:hover{
     
     body .navbar .navlink{
         margin-left: 0px;
+
+    }
+    body .navbar .navlink button{
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     .hero{
@@ -310,7 +315,7 @@ body .hero-content button:hover{
     }
 
     .foot{
-        margin-top: 580%;
+        margin-top: 700%;
         margin-left: 20%;
     }
 
